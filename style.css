@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+}
+
+.title{
+    text-align: center ;
+    font-size: 50px;
+}
+
+
+body {
+background-color: rgb(43, 226, 83);
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box  {                                  
+    background-color: purple;
+    border-radius: 20px;
+    border: 2px slateblue;
+    margin: 20px;
+    padding: 50px;
+
+}
+
+li {
+list-style-type: none;
+font-size: 30px;
+
+}
+
+.heading {
+    background-color: aqua;
+    margin-bottom: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    width: 200px;
+    height: 150px;
+    border-radius: 200000px;
+    padding: 50px;
+    cursor:pointer;
+    text-align: center;
+}
+.buttonCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wiggle{
+    animation: wiggle 2s linear infinite;
+}
+   
+@keyframes wiggle{
+0%,7%{
+    transform: rotateZ(0);
+}
+15%{
+    transform: rotateZ(-80deg);
+}
+    20%{
+        transform: rotateZ(-10deg)
+    }
+
+    25%{
+        transform: rotateZ(-10deg);
+    }
+30%{
+transform: rotateZ(6deg);
+}
+35%{
+    transform: rotateZ(-4deg);
+}
+40%,100%{
+    transform: rotateZ(0);
+    
+}
+}
+
+span{
+        color: chocolate;
+    }
+img{
+        width: 400px;
+}
+.title:hover{
+    color: coral;
+}
+
+.red{
+    color: red;
+}
+
+.container{
+    display: flex;
+
+}
+
+.op-container{
+    text-align: center;
+}
+
+.ravenPic{
+    width: 600px;
+}
+
+.raven{
+    display: flex;
+    align-items:center ;
+}
+
